@@ -1,0 +1,62 @@
+{
+  "copilot": {
+    "humaneval_002": {
+      "error_type": "Incorrect Conditions",
+      "notes": "Fails to apply correct logic on string input ['easy']."
+    },
+    "humaneval_003": {
+      "error_type": "Logic Error",
+      "notes": "Output mismatch: expected False, got True for input ['eeeee e ']."
+    },
+    "humaneval_004": {
+      "error_type": "Missing Edge Cases",
+      "notes": "Fails to generalize for input [['banana', 'band', 'cabana'], 'ban']."
+    },
+    "humaneval_005": {
+      "error_type": "Incorrect Conditions",
+      "notes": "Fails to apply correct logic on string input ['bcaefdgih']."
+    },
+    "humaneval_006": {
+      "error_type": "Incomplete Implementation",
+      "notes": "Output is None or placeholder."
+    },
+    "humaneval_007": {
+      "error_type": "Logic Error",
+      "notes": "Exception thrown for input [-1]."
+    },
+    "humaneval_009": {
+      "error_type": "Missing Edge Cases",
+      "notes": "Fails to generalize for input [5]."
+    },
+    "humaneval_012": {
+      "error_type": "Logic Error",
+      "notes": "Output mismatch: expected 29, got 17 for input [[1.4, 4.2, 0]]."
+    },
+    "humaneval_014": {
+      "error_type": "Incomplete Implementation",
+      "notes": "Unspecified logical inconsistency."
+    }
+  },
+  "chatgpt": {
+    "humaneval_003": {
+      "error_type": "Logic Error",
+      "notes": "Output mismatch: expected False, got True for input ['eeeee e ']."
+    },
+    "humaneval_004": {
+      "error_type": "Missing Edge Cases",
+      "notes": "Fails to generalize for input [['banana', 'band', 'cabana'], 'ban']."
+    },
+    "humaneval_005": {
+      "error_type": "Incorrect Conditions",
+      "notes": "Fails to apply correct logic on string input ['bcaefdgih']."
+    },
+    "humaneval_007": {
+      "error_type": "Logic Error",
+      "notes": "Output mismatch: expected True, got False for input [-1]."
+    },
+    "humaneval_009": {
+      "error_type": "Logic Error",
+      "notes": "Exception thrown for input [0]."
+    }
+  }
+}

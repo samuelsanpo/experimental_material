@@ -1,0 +1,42 @@
+{
+  "copilot": {
+    "mbpp_001": {
+      "error_type": "Logic Error",
+      "notes": "Incorrect calculation for unique values, returns 1 or sum of repeated elements instead of the expected result."
+    },
+    "mbpp_004": {
+      "error_type": "Incorrect Conditions",
+      "notes": "Returns GCD instead of checking if it equals 1; misinterprets boolean condition."
+    },
+    "mbpp_010": {
+      "error_type": "Missing Edge Cases",
+      "notes": "Fails to recognize word matches with trailing spaces or punctuation."
+    },
+    "mbpp_013": {
+      "error_type": "Incomplete Implementation",
+      "notes": "Function does not remove all sublists with the specified length in some cases."
+    }
+  },
+  "chatgpt": {
+    "mbpp_001": {
+      "error_type": "Logic Error",
+      "notes": "Incorrect result in summing repeated elements; returns 55 instead of expected 46."
+    },
+    "mbpp_003": {
+      "error_type": "Logic Error",
+      "notes": "Returns incorrect elements from nested lists; does not match expected filtered values."
+    },
+    "mbpp_004": {
+      "error_type": "Incorrect Conditions",
+      "notes": "Returns GCD value instead of boolean check."
+    },
+    "mbpp_010": {
+      "error_type": "Missing Edge Cases",
+      "notes": "Fails to identify words with trailing characters or punctuation in string comparison."
+    },
+    "mbpp_013": {
+      "error_type": "Incomplete Implementation",
+      "notes": "Partial matching; does not fully eliminate sublists based on size filter in certain edge cases."
+    }
+  }
+}

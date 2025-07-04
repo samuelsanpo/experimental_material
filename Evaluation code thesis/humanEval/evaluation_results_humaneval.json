@@ -1,0 +1,743 @@
+{
+  "copilot": {
+    "humaneval_001": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_002": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 8,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            "easy"
+          ],
+          "expected": "",
+          "actual": "a"
+        },
+        {
+          "args": [
+            "eAsy"
+          ],
+          "expected": "",
+          "actual": "A"
+        }
+      ]
+    },
+    "humaneval_003": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 8,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            "eeeee e "
+          ],
+          "expected": false,
+          "actual": true
+        },
+        {
+          "args": [
+            "apple pi e "
+          ],
+          "expected": false,
+          "actual": true
+        }
+      ]
+    },
+    "humaneval_004": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 8,
+      "total_tests": 10,
+      "execution_time": 0.003,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            [
+              "banana",
+              "band",
+              "cabana"
+            ],
+            "ban"
+          ],
+          "expected": [
+            "banana",
+            "band"
+          ],
+          "actual": [
+            "banana",
+            "band",
+            "cabana"
+          ]
+        },
+        {
+          "args": [
+            [
+              "alpha",
+              "beta",
+              "gamma"
+            ],
+            ""
+          ],
+          "expected": [
+            "alpha",
+            "beta",
+            "gamma"
+          ],
+          "actual": []
+        }
+      ]
+    },
+    "humaneval_005": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 2,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            "bcaefdgih"
+          ],
+          "expected": "abcdefghi",
+          "actual": "abcdefhgi"
+        },
+        {
+          "args": [
+            "cabfdeihg"
+          ],
+          "expected": "abcdefghi",
+          "actual": "bcaefdgih"
+        },
+        {
+          "args": [
+            "efgabchij"
+          ],
+          "expected": "abcdefghi",
+          "actual": "gefcabjhi"
+        },
+        {
+          "args": [
+            "cabfdeih"
+          ],
+          "expected": "abcdefghi",
+          "actual": "bcaefdih"
+        },
+        {
+          "args": [
+            "cabfdeihgxyz"
+          ],
+          "expected": "abcdefghixyz",
+          "actual": "bcaefdgihzxy"
+        },
+        {
+          "args": [
+            "defabcghi"
+          ],
+          "expected": "abcdefghi",
+          "actual": "fdecabigh"
+        },
+        {
+          "args": [
+            "yxz"
+          ],
+          "expected": "zxy",
+          "actual": "zyx"
+        },
+        {
+          "args": [
+            "yza"
+          ],
+          "expected": "azy",
+          "actual": "ayz"
+        }
+      ]
+    },
+    "humaneval_006": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 0,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            1
+          ],
+          "expected": 2,
+          "actual": null
+        },
+        {
+          "args": [
+            2
+          ],
+          "expected": 3,
+          "actual": null
+        },
+        {
+          "args": [
+            3
+          ],
+          "expected": 5,
+          "actual": null
+        },
+        {
+          "args": [
+            4
+          ],
+          "expected": 13,
+          "actual": null
+        },
+        {
+          "args": [
+            5
+          ],
+          "expected": 89,
+          "actual": null
+        },
+        {
+          "args": [
+            6
+          ],
+          "expected": 233,
+          "actual": null
+        },
+        {
+          "args": [
+            7
+          ],
+          "expected": 1597,
+          "actual": null
+        },
+        {
+          "args": [
+            8
+          ],
+          "expected": 28657,
+          "actual": null
+        },
+        {
+          "args": [
+            9
+          ],
+          "expected": 514229,
+          "actual": null
+        },
+        {
+          "args": [
+            10
+          ],
+          "expected": 433494437,
+          "actual": null
+        }
+      ]
+    },
+    "humaneval_007": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 9,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [
+        "type complex doesn't define __round__ method"
+      ],
+      "failed_cases": [
+        {
+          "args": [
+            -1
+          ],
+          "expected": true,
+          "actual": "Exception: type complex doesn't define __round__ method"
+        }
+      ]
+    },
+    "humaneval_008": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.001,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_009": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 5,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            5
+          ],
+          "expected": [
+            1,
+            3,
+            2.0,
+            8.0,
+            3.0,
+            15.0
+          ],
+          "actual": [
+            1,
+            3,
+            2,
+            8,
+            3,
+            14
+          ]
+        },
+        {
+          "args": [
+            6
+          ],
+          "expected": [
+            1,
+            3,
+            2.0,
+            8.0,
+            3.0,
+            15.0,
+            4.0
+          ],
+          "actual": [
+            1,
+            3,
+            2,
+            8,
+            3,
+            14,
+            4
+          ]
+        },
+        {
+          "args": [
+            7
+          ],
+          "expected": [
+            1,
+            3,
+            2.0,
+            8.0,
+            3.0,
+            15.0,
+            4.0,
+            24.0
+          ],
+          "actual": [
+            1,
+            3,
+            2,
+            8,
+            3,
+            14,
+            4,
+            21
+          ]
+        },
+        {
+          "args": [
+            8
+          ],
+          "expected": [
+            1,
+            3,
+            2.0,
+            8.0,
+            3.0,
+            15.0,
+            4.0,
+            24.0,
+            5.0
+          ],
+          "actual": [
+            1,
+            3,
+            2,
+            8,
+            3,
+            14,
+            4,
+            21,
+            5
+          ]
+        },
+        {
+          "args": [
+            9
+          ],
+          "expected": [
+            1,
+            3,
+            2.0,
+            8.0,
+            3.0,
+            15.0,
+            4.0,
+            24.0,
+            5.0,
+            35.0
+          ],
+          "actual": [
+            1,
+            3,
+            2,
+            8,
+            3,
+            14,
+            4,
+            21,
+            5,
+            29
+          ]
+        }
+      ]
+    },
+    "humaneval_010": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_011": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.001,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_012": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 8,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            [
+              1.4,
+              4.2,
+              0
+            ]
+          ],
+          "expected": 29,
+          "actual": 17
+        },
+        {
+          "args": [
+            [
+              -1.4,
+              4.6,
+              6.3
+            ]
+          ],
+          "expected": 75,
+          "actual": 62
+        }
+      ]
+    },
+    "humaneval_013": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_014": {
+      "syntax_valid": false,
+      "pass_all_tests": false,
+      "passed_tests": 0,
+      "total_tests": 0,
+      "execution_time": null,
+      "errors": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\USER\\Desktop\\Computer Science\\Thesis\\Evaluation code thesis\\humanEval\\evaluate_humaneval.py\", line 45, in <module>\n    spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 991, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1129, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1059, in source_to_code\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"C:\\Users\\USER\\Desktop\\Computer Science\\Thesis\\Evaluation code thesis\\humanEval\\copilot\\humaneval_014.py\", line 3\n    \"\"\"Given an array representing a branch of a tree that has non-negative integer nodes\n    ^\nSyntaxError: unterminated triple-quoted string literal (detected at line 26)\n"
+      ],
+      "failed_cases": []
+    },
+    "humaneval_015": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.001,
+      "errors": [],
+      "failed_cases": []
+    }
+  },
+  "chatgpt": {
+    "humaneval_001": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.001,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_002": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.001,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_003": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 8,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            "eeeee e "
+          ],
+          "expected": false,
+          "actual": true
+        },
+        {
+          "args": [
+            "apple pi e "
+          ],
+          "expected": false,
+          "actual": true
+        }
+      ]
+    },
+    "humaneval_004": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 9,
+      "total_tests": 10,
+      "execution_time": 0.0002,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            [
+              "banana",
+              "band",
+              "cabana"
+            ],
+            "ban"
+          ],
+          "expected": [
+            "banana",
+            "band"
+          ],
+          "actual": [
+            "banana",
+            "band",
+            "cabana"
+          ]
+        }
+      ]
+    },
+    "humaneval_005": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 2,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            "bcaefdgih"
+          ],
+          "expected": "abcdefghi",
+          "actual": "abcdefhgi"
+        },
+        {
+          "args": [
+            "cabfdeihg"
+          ],
+          "expected": "abcdefghi",
+          "actual": "bcaefdgih"
+        },
+        {
+          "args": [
+            "efgabchij"
+          ],
+          "expected": "abcdefghi",
+          "actual": "gefcabjhi"
+        },
+        {
+          "args": [
+            "cabfdeih"
+          ],
+          "expected": "abcdefghi",
+          "actual": "bcaefdih"
+        },
+        {
+          "args": [
+            "cabfdeihgxyz"
+          ],
+          "expected": "abcdefghixyz",
+          "actual": "bcaefdgihzxy"
+        },
+        {
+          "args": [
+            "defabcghi"
+          ],
+          "expected": "abcdefghi",
+          "actual": "fdecabigh"
+        },
+        {
+          "args": [
+            "yxz"
+          ],
+          "expected": "zxy",
+          "actual": "zyx"
+        },
+        {
+          "args": [
+            "yza"
+          ],
+          "expected": "azy",
+          "actual": "ayz"
+        }
+      ]
+    },
+    "humaneval_006": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_007": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 9,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": [
+        {
+          "args": [
+            -1
+          ],
+          "expected": true,
+          "actual": false
+        }
+      ]
+    },
+    "humaneval_008": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_009": {
+      "syntax_valid": true,
+      "pass_all_tests": false,
+      "passed_tests": 9,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [
+        "list assignment index out of range"
+      ],
+      "failed_cases": [
+        {
+          "args": [
+            0
+          ],
+          "expected": [
+            1
+          ],
+          "actual": "Exception: list assignment index out of range"
+        }
+      ]
+    },
+    "humaneval_010": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_011": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_012": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.001,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_013": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_014": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    },
+    "humaneval_015": {
+      "syntax_valid": true,
+      "pass_all_tests": true,
+      "passed_tests": 10,
+      "total_tests": 10,
+      "execution_time": 0.0,
+      "errors": [],
+      "failed_cases": []
+    }
+  }
+}

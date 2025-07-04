@@ -1,0 +1,77 @@
+{
+  "mbpp_001": {
+    "prompt": "Write a python function find_Sum to find the sum of repeated elements in a given array.",
+    "function": "find_Sum",
+    "dataset_id": "mbpp_032"
+  },
+  "mbpp_002": {
+    "prompt": "Write a function count_pairs to count all the distinct pairs having a difference of k in any array.",
+    "function": "count_pairs",
+    "dataset_id": "mbpp_173"
+  },
+  "mbpp_003": {
+    "prompt": "Write a function specified_element to extract every specified element from a given two dimensional list.",
+    "function": "specified_element",
+    "dataset_id": "mbpp_144"
+  },
+  "mbpp_004": {
+    "prompt": "Write a python gcd function to check whether the given number is co-prime or not.",
+    "function": "gcd",
+    "dataset_id": "mbpp_141"
+  },
+  "mbpp_005": {
+    "prompt": "Write a function intersection_nested_lists to find the nested list elements which are present in another list.",
+    "function": "intersection_nested_lists",
+    "dataset_id": "mbpp_288"
+  },
+  "mbpp_006": {
+    "prompt": "Write a function lps to find the longest palindromic subsequence in the given string.",
+    "function": "lps",
+    "dataset_id": "mbpp_237"
+  },
+  "mbpp_007": {
+    "prompt": "Write a function extract_string to extract specified size of strings from a give list of string values.",
+    "function": "extract_string",
+    "dataset_id": "mbpp_440"
+  },
+  "mbpp_008": {
+    "prompt": "Write a function count_odd to find number of odd elements in the given list using lambda function.",
+    "function": "count_odd",
+    "dataset_id": "mbpp_248"
+  },
+  "mbpp_009": {
+    "prompt": "Write a function larg_nnum to get the n largest items from a dataset.",
+    "function": "larg_nnum",
+    "dataset_id": "mbpp_222"
+  },
+  "mbpp_010": {
+    "prompt": "Write a function text_match_word that matches a word at the end of a string, with optional punctuation.",
+    "function": "text_match_word",
+    "dataset_id": "mbpp_327"
+  },
+  "mbpp_011": {
+    "prompt": "Write a function position_min to find all index positions of the minimum values in a given list.",
+    "function": "position_min",
+    "dataset_id": "mbpp_312"
+  },
+  "mbpp_012": {
+    "prompt": "Write a function min_of_three to find minimum of three numbers.",
+    "function": "min_of_three",
+    "dataset_id": "mbpp_217"
+  },
+  "mbpp_013": {
+    "prompt": "Write a function remove_tuples to remove all the tuples with length k.",
+    "function": "remove_tuples",
+    "dataset_id": "mbpp_186"
+  },
+  "mbpp_014": {
+    "prompt": "Write a function group_keyvalue to group a sequence of key-value pairs into a dictionary of lists.",
+    "function": "group_keyvalue",
+    "dataset_id": "mbpp_164"
+  },
+  "mbpp_015": {
+    "prompt": "Write a python function frequency_Of_Largest to find the frequency of the largest value in a given array.",
+    "function": "frequency_Of_Largest",
+    "dataset_id": "mbpp_479"
+  }
+}
